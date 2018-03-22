@@ -1,11 +1,9 @@
 package hello.controller.v2;
 
-import hello.model.Greeting;
 import hello.model.HelloMessage;
 import hello.service.WebsocketService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.messaging.handler.annotation.MessageMapping;
-import org.springframework.messaging.handler.annotation.SendTo;
 import org.springframework.stereotype.Controller;
 
 /**
