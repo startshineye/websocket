@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ddeadbf-82cc-4bce-98b3-5ba412f5908e" name="Default" comment="" />
-    <ignored path="$PROJECT_DIR$/../websocket/out/" />
-    <ignored path="$PROJECT_DIR$/../websocket/target/" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,146 +11,117 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/websocket$Application.coverage" NAME="Application Coverage Results" MODIFIED="1521888541316" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>hello.*</FILTER>
+    </SUITE>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SubscribeEventListener.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../websocket/src/main/java/hello/listener/SubscribeEventListener.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="V3SingleChatController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../websocket/src/main/java/hello/controller/v3/V3SingleChatController.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/hello/controller/v3/V3SingleChatController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="106">
-              <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+            <state relative-caret-position="152">
+              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#487#488#0" expanded="true" />
                 <element signature="e#550#551#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../websocket/src/main/resources/static/v2/app.js">
+      <file leaf-file-name="V2reetingController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/hello/controller/v2/V2reetingController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
+            <state relative-caret-position="228">
+              <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/static/v2/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
               <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../websocket/src/main/resources/static/v3/index.html">
+      <file leaf-file-name="WebsocketConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/hello/config/WebsocketConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-380">
-              <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InMessage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../websocket/src/main/java/hello/model/chat/InMessage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-              <folding>
-                <element signature="e#245#246#0" expanded="true" />
-                <element signature="e#281#282#0" expanded="true" />
-                <element signature="e#312#313#0" expanded="true" />
-                <element signature="e#339#340#0" expanded="true" />
-                <element signature="e#379#380#0" expanded="true" />
-                <element signature="e#411#412#0" expanded="true" />
-                <element signature="e#440#441#0" expanded="true" />
-                <element signature="e#465#466#0" expanded="true" />
-                <element signature="e#501#502#0" expanded="true" />
-                <element signature="e#529#530#0" expanded="true" />
-                <element signature="e#563#564#0" expanded="true" />
-                <element signature="e#593#594#0" expanded="true" />
-                <element signature="e#639#640#0" expanded="true" />
-                <element signature="e#677#678#0" expanded="true" />
-                <element signature="e#707#708#0" expanded="true" />
-                <element signature="e#735#736#0" expanded="true" />
-                <element signature="e#775#776#0" expanded="true" />
-                <element signature="e#809#810#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OutMessage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../websocket/src/main/java/hello/model/chat/OutMessage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-              <folding>
-                <element signature="e#237#238#0" expanded="true" />
-                <element signature="e#274#275#0" expanded="true" />
-                <element signature="e#305#306#0" expanded="true" />
-                <element signature="e#332#333#0" expanded="true" />
-                <element signature="e#372#373#0" expanded="true" />
-                <element signature="e#404#405#0" expanded="true" />
-                <element signature="e#438#439#0" expanded="true" />
-                <element signature="e#468#469#0" expanded="true" />
-                <element signature="e#514#515#0" expanded="true" />
-                <element signature="e#552#553#0" expanded="true" />
-                <element signature="e#581#582#0" expanded="true" />
-                <element signature="e#608#609#0" expanded="true" />
-                <element signature="e#646#647#0" expanded="true" />
-                <element signature="e#678#679#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ConnectEventListener.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../websocket/src/main/java/hello/listener/ConnectEventListener.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="12" column="95" lean-forward="true" selection-start-line="12" selection-start-column="95" selection-end-line="12" selection-end-column="95" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WebsocketService.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../websocket/src/main/java/hello/service/WebsocketService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
-              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../websocket/src/main/resources/static/v3/main.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="76">
+              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="21" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../websocket/src/main/resources/static/v3/app.js">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/static/v1/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="82">
-              <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+            <state relative-caret-position="397">
+              <caret line="27" column="31" lean-forward="true" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GreetingController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/hello/controller/v1/GreetingController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WebsocketService.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/hello/service/WebsocketService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OutMessage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/hello/model/chat/OutMessage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="456">
+              <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+              <folding>
+                <element signature="e#237#238#0" expanded="true" />
+                <element signature="e#274#275#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/static/v3/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="50" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/static/v3/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="449">
+              <caret line="54" column="7" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="54" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -174,31 +145,37 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../websocket/pom.xml" />
-        <option value="$PROJECT_DIR$/../websocket/src/main/java/hello/HelloMessage.java" />
-        <option value="$PROJECT_DIR$/../websocket/src/main/java/hello/Greeting.java" />
-        <option value="$PROJECT_DIR$/../websocket/src/main/java/hello/model/Greeting.java" />
-        <option value="$PROJECT_DIR$/../websocket/src/main/java/hello/controller/HelloController.java" />
-        <option value="$PROJECT_DIR$/../websocket/src/main/java/hello/controller/GreetingController.java" />
-        <option value="$PROJECT_DIR$/../websocket/src/main/java/hello/config/WebsocketConfig.java" />
-        <option value="$PROJECT_DIR$/../websocket/src/main/resources/static/index.html" />
-        <option value="$PROJECT_DIR$/../websocket/src/main/resources/static/app.js" />
-        <option value="$PROJECT_DIR$/../websocket/src/main/java/hello/Application.java" />
-        <option value="$PROJECT_DIR$/../websocket/src/main/java/hello/controller/v1/GreetingController.java" />
-        <option value="$PROJECT_DIR$/../websocket/src/main/resources/static/v1/app.js" />
-        <option value="$PROJECT_DIR$/../websocket/src/main/java/hello/controller/v2/GreetingController.java" />
-        <option value="$PROJECT_DIR$/../websocket/src/main/resources/static/v2/app.js" />
-        <option value="$PROJECT_DIR$/../websocket/src/main/resources/static/v1/index.html" />
-        <option value="$PROJECT_DIR$/../websocket/src/main/resources/static/v2/index.html" />
-        <option value="$PROJECT_DIR$/../websocket/src/main/java/hello/controller/v2/V2reetingController.java" />
-        <option value="$PROJECT_DIR$/../websocket/src/main/java/hello/listener/ConnectEventListener.java" />
-        <option value="$PROJECT_DIR$/../websocket/src/main/java/hello/listener/SubscribeEventListener.java" />
-        <option value="$PROJECT_DIR$/../websocket/src/main/java/hello/model/chat/InMessage.java" />
-        <option value="$PROJECT_DIR$/../websocket/src/main/java/hello/model/chat/OutMessage.java" />
-        <option value="$PROJECT_DIR$/../websocket/src/main/java/hello/controller/v3/V3SingleChatController.java" />
-        <option value="$PROJECT_DIR$/../websocket/src/main/java/hello/service/WebsocketService.java" />
-        <option value="$PROJECT_DIR$/../websocket/src/main/resources/static/v3/app.js" />
-        <option value="$PROJECT_DIR$/../websocket/src/main/resources/static/v3/index.html" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/hello/HelloMessage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/hello/Greeting.java" />
+        <option value="$PROJECT_DIR$/src/main/java/hello/model/Greeting.java" />
+        <option value="$PROJECT_DIR$/src/main/java/hello/controller/HelloController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/hello/controller/GreetingController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/index.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/app.js" />
+        <option value="$PROJECT_DIR$/src/main/java/hello/controller/v1/GreetingController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/v1/app.js" />
+        <option value="$PROJECT_DIR$/src/main/java/hello/controller/v2/GreetingController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/v2/app.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/v1/index.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/v2/index.html" />
+        <option value="$PROJECT_DIR$/src/main/java/hello/listener/ConnectEventListener.java" />
+        <option value="$PROJECT_DIR$/src/main/java/hello/listener/SubscribeEventListener.java" />
+        <option value="$PROJECT_DIR$/src/main/java/hello/model/chat/InMessage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/hello/model/chat/OutMessage.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/v3/index.html" />
+        <option value="$PROJECT_DIR$/src/main/java/hello/Application.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/v4/index.html" />
+        <option value="$PROJECT_DIR$/src/main/java/hello/service/WebSocketService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/hello/service/WebsocketService1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/hello/service/WebsocketService2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/hello/controller/v2/V2reetingController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/hello/controller/v3/V3ChatRoomContoller.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/v4/app.js" />
+        <option value="$PROJECT_DIR$/src/main/java/hello/config/WebsocketConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/hello/controller/v3/V3SingleChatController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/v3/app.js" />
+        <option value="$PROJECT_DIR$/src/main/java/hello/service/WebsocketService.java" />
       </list>
     </option>
   </component>
@@ -217,8 +194,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="-69" />
-    <option name="y" value="304" />
+    <option name="x" value="-1" />
+    <option name="y" value="53" />
     <option name="width" value="1600" />
     <option name="height" value="748" />
   </component>
@@ -237,9 +214,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -280,7 +254,36 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="hello" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="websocket" type="b2602c69:ProjectViewProjectNode" />
+              <item name="websocket" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hello" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="websocket" type="b2602c69:ProjectViewProjectNode" />
+              <item name="websocket" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hello" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="v1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="websocket" type="b2602c69:ProjectViewProjectNode" />
+              <item name="websocket" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hello" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="v2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="websocket" type="b2602c69:ProjectViewProjectNode" />
@@ -323,6 +326,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="v1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="websocket" type="b2602c69:ProjectViewProjectNode" />
+              <item name="websocket" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
               <item name="v2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -338,11 +350,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="E:/cl" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path" value="D:/nodejs/node" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -357,6 +372,7 @@
       <recent name="F:\websocket\src\main\resources\static\v1" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\websocket\src\main\resources\static\v4" />
       <recent name="F:\websocket\src\main\resources\static\v3" />
       <recent name="F:\websocket\src\main\resources\static\v2" />
       <recent name="F:\websocket\src\main\resources\static\v1" />
@@ -375,22 +391,9 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.Application">
-    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="hello.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="hello.Application" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../websocket" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="hello.Application" />
       <module name="websocket" />
       <envs />
     </configuration>
@@ -406,7 +409,7 @@
       <option name="MAIN_CLASS_NAME" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../websocket" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
@@ -475,6 +478,10 @@
       <properties />
       <listeners />
     </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Application.Application" />
+      <item index="1" class="java.lang.String" itemvalue="Spring Boot.Application" />
+    </list>
     <recent_temporary>
       <list size="1">
         <item index="0" class="java.lang.String" itemvalue="Application.Application" />
@@ -492,20 +499,21 @@
       <option name="presentableId" value="Default" />
       <updated>1521646757192</updated>
       <workItem from="1521646770290" duration="11557000" />
-      <workItem from="1521720858987" duration="6655000" />
+      <workItem from="1521720858987" duration="11606000" />
+      <workItem from="1521885743117" duration="4909000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18212000" />
+    <option name="totallyTimeSpent" value="28072000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-69" y="304" width="1600" height="748" extended-state="1" />
+    <frame x="-1" y="53" width="1600" height="748" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952693" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -513,18 +521,19 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41435564" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19415584" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2012987" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32012987" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.43556282" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -542,20 +551,98 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../websocket/src/main/java/hello/controller/v3/V3SingleChatController.java</url>
-          <line>16</line>
-          <properties />
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="12" />
+      <option name="time" value="19" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../websocket/src/main/resources/static/v1/app.js">
+    <entry file="file://$PROJECT_DIR$/src/main/java/hello/controller/v3/V3SingleChatController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="16" column="36" lean-forward="true" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#487#488#0" expanded="true" />
+            <element signature="e#550#551#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hello/controller/v2/V2reetingController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="19" column="27" lean-forward="false" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-messaging/5.0.4.RELEASE/spring-messaging-5.0.4.RELEASE.jar!/org/springframework/messaging/handler/invocation/InvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1767">
+          <caret line="113" column="13" lean-forward="false" selection-start-line="113" selection-start-column="13" selection-end-line="113" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/v2/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="703">
+          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hello/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hello/config/WebsocketConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="10" column="74" lean-forward="true" selection-start-line="10" selection-start-column="74" selection-end-line="10" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/v4/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="703">
+          <caret line="37" column="37" lean-forward="false" selection-start-line="37" selection-start-column="37" selection-end-line="37" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/v4/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="20" lean-forward="false" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/v3/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="39" lean-forward="false" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hello/service/WebSocketService1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="30" column="12" lean-forward="false" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/v1/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="665">
           <caret line="35" column="29" lean-forward="false" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
@@ -563,7 +650,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../websocket/src/main/resources/static/v2/index.html">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/v2/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="9" column="21" lean-forward="false" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
@@ -571,7 +658,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../websocket/src/main/resources/static/v2/app.js">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/v2/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="703">
           <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
@@ -579,25 +666,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../websocket/src/main/java/hello/service/WebsocketService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/hello/service/WebSocketService1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="15" column="8" lean-forward="false" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../websocket/websocket.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../websocket/pom.xml">
+    <entry file="file://$PROJECT_DIR$/websocket.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1216">
           <caret line="64" column="12" lean-forward="true" selection-start-line="64" selection-start-column="12" selection-end-line="64" selection-end-column="12" />
@@ -605,40 +689,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../websocket/src/main/resources/static/v1/index.html">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/v1/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="9" column="21" lean-forward="false" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
           <folding>
-            <element signature="n#style#0;n#h2#0;n#noscript#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h2#0;n#noscript#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../websocket/src/main/resources/static/v1/main.css">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/v1/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../websocket/src/main/resources/static/v2/main.css">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/v2/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../websocket/src/main/java/hello/controller/v2/V2reetingController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/hello/controller/v2/V2reetingController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
           <caret line="21" column="6" lean-forward="false" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#502#503#0" expanded="true" />
-            <element signature="e#568#569#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -657,77 +737,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../websocket/src/main/java/hello/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#229#230#0" expanded="false" />
-            <element signature="e#285#286#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../websocket/src/main/java/hello/model/Greeting.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/hello/model/Greeting.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
           <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
           <folding>
-            <element signature="e#139#140#0" expanded="true" />
-            <element signature="e#172#173#0" expanded="true" />
-            <element signature="e#206#207#0" expanded="true" />
-            <element signature="e#236#237#0" expanded="true" />
-            <element signature="e#282#283#0" expanded="true" />
-            <element signature="e#320#321#0" expanded="true" />
+            <element signature="e#139#140#0" expanded="false" />
+            <element signature="e#172#173#0" expanded="false" />
+            <element signature="e#206#207#0" expanded="false" />
+            <element signature="e#236#237#0" expanded="false" />
+            <element signature="e#282#283#0" expanded="false" />
+            <element signature="e#320#321#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../websocket/src/main/java/hello/model/HelloMessage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/hello/model/HelloMessage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-          <folding>
-            <element signature="e#146#147#0" expanded="true" />
-            <element signature="e#173#174#0" expanded="true" />
-            <element signature="e#204#205#0" expanded="true" />
-            <element signature="e#231#232#0" expanded="true" />
-            <element signature="e#271#272#0" expanded="true" />
-            <element signature="e#303#304#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../websocket/src/main/java/hello/config/WebsocketConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10">
-          <caret line="10" column="74" lean-forward="true" selection-start-line="10" selection-start-column="74" selection-end-line="10" selection-end-column="74" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../websocket/src/main/java/hello/controller/v1/GreetingController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="14" column="4" lean-forward="false" selection-start-line="14" selection-start-column="4" selection-end-line="19" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../websocket/websocket.iml">
+    <entry file="file://$PROJECT_DIR$/websocket.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../websocket/pom.xml">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1216">
           <caret line="64" column="12" lean-forward="false" selection-start-line="64" selection-start-column="12" selection-end-line="64" selection-end-column="12" />
@@ -735,41 +774,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../websocket/src/main/resources/static/v1/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="35" column="29" lean-forward="false" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../websocket/src/main/resources/static/v1/main.css">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/v1/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../websocket/src/main/resources/static/v2/main.css">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/v2/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../websocket/src/main/resources/static/v1/index.html">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/v1/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="9" column="21" lean-forward="false" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
           <folding>
-            <element signature="n#style#0;n#h2#0;n#noscript#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h2#0;n#noscript#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../websocket/src/main/resources/static/v2/index.html">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/v2/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="9" column="21" lean-forward="false" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
@@ -777,138 +806,176 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../websocket/src/main/java/hello/controller/v2/V2reetingController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#502#503#0" expanded="true" />
-            <element signature="e#568#569#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../websocket/src/main/java/hello/listener/ConnectEventListener.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/hello/listener/ConnectEventListener.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="12" column="95" lean-forward="true" selection-start-line="12" selection-start-column="95" selection-end-line="12" selection-end-column="95" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../websocket/src/main/java/hello/listener/SubscribeEventListener.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/hello/listener/SubscribeEventListener.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="475">
           <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../websocket/src/main/java/hello/model/chat/InMessage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/hello/model/chat/InMessage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding>
-            <element signature="e#245#246#0" expanded="true" />
-            <element signature="e#281#282#0" expanded="true" />
-            <element signature="e#312#313#0" expanded="true" />
-            <element signature="e#339#340#0" expanded="true" />
-            <element signature="e#379#380#0" expanded="true" />
-            <element signature="e#411#412#0" expanded="true" />
-            <element signature="e#440#441#0" expanded="true" />
-            <element signature="e#465#466#0" expanded="true" />
-            <element signature="e#501#502#0" expanded="true" />
-            <element signature="e#529#530#0" expanded="true" />
-            <element signature="e#563#564#0" expanded="true" />
-            <element signature="e#593#594#0" expanded="true" />
-            <element signature="e#639#640#0" expanded="true" />
-            <element signature="e#677#678#0" expanded="true" />
-            <element signature="e#707#708#0" expanded="true" />
-            <element signature="e#735#736#0" expanded="true" />
-            <element signature="e#775#776#0" expanded="true" />
-            <element signature="e#809#810#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../websocket/src/main/java/hello/model/chat/OutMessage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding>
-            <element signature="e#237#238#0" expanded="true" />
-            <element signature="e#274#275#0" expanded="true" />
-            <element signature="e#305#306#0" expanded="true" />
-            <element signature="e#332#333#0" expanded="true" />
-            <element signature="e#372#373#0" expanded="true" />
-            <element signature="e#404#405#0" expanded="true" />
-            <element signature="e#438#439#0" expanded="true" />
-            <element signature="e#468#469#0" expanded="true" />
-            <element signature="e#514#515#0" expanded="true" />
-            <element signature="e#552#553#0" expanded="true" />
-            <element signature="e#581#582#0" expanded="true" />
-            <element signature="e#608#609#0" expanded="true" />
-            <element signature="e#646#647#0" expanded="true" />
-            <element signature="e#678#679#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../websocket/src/main/resources/static/v3/main.css">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/v3/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-messaging/5.0.4.RELEASE/spring-messaging-5.0.4.RELEASE.jar!/org/springframework/messaging/handler/invocation/InvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1767">
+          <caret line="113" column="13" lean-forward="false" selection-start-line="113" selection-start-column="13" selection-end-line="113" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../websocket/src/main/resources/static/v2/app.js">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-messaging/5.0.4.RELEASE/spring-messaging-5.0.4.RELEASE.jar!/org/springframework/messaging/handler/invocation/AbstractMethodMessageHandler.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
+        <state relative-caret-position="75">
+          <caret line="164" column="0" lean-forward="false" selection-start-line="164" selection-start-column="0" selection-end-line="164" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/v4/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="20" lean-forward="false" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/v4/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hello/controller/v3/V3ChatRoomContoller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hello/service/WebSocketService1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="449">
+          <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hello/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/v1/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="27" column="31" lean-forward="true" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hello/controller/v2/V2reetingController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hello/controller/v1/GreetingController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/v2/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
           <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../websocket/src/main/resources/static/v3/app.js">
+    <entry file="file://$PROJECT_DIR$/src/main/java/hello/model/chat/OutMessage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="82">
-          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        <state relative-caret-position="456">
+          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding>
+            <element signature="e#237#238#0" expanded="true" />
+            <element signature="e#274#275#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/v3/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="50" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../websocket/src/main/resources/static/v3/index.html">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/v3/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-380">
-          <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+        <state relative-caret-position="449">
+          <caret line="54" column="7" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="54" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../websocket/src/main/java/hello/controller/v3/V3SingleChatController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/hello/config/WebsocketConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+        <state relative-caret-position="76">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="21" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hello/controller/v3/V3SingleChatController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#487#488#0" expanded="true" />
             <element signature="e#550#551#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../websocket/src/main/java/hello/service/WebsocketService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/hello/service/WebsocketService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="57">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

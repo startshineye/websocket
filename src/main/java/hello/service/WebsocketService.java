@@ -9,7 +9,7 @@ import org.springframework.messaging.simp.SimpMessagingTemplate;
 import org.springframework.stereotype.Service;
 
 @Service
-public class WebsocketService {
+public class WebsocketService{
 
     @Autowired
     private SimpMessagingTemplate template;
@@ -19,6 +19,7 @@ public class WebsocketService {
     }
 
     public void sendSingleChatMessage(InMessage message) {
+        System.out.println("dest:"+"/chat/single/"+message.getTo());
         template.convertAndSend("/chat/single/"+message.getTo(),
                 new OutMessage(message.getFrom()+"发送:"+message.getContent())
                 );
