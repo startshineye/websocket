@@ -21,5 +21,9 @@ public class SubscribeEventListener implements ApplicationListener<SessionSubscr
     public void onApplicationEvent(SessionSubscribeEvent event) {
         StompHeaderAccessor wrap = StompHeaderAccessor.wrap(event.getMessage());
         System.out.println("[SubscribeEventListener 监听器类]"+wrap.getCommand().getMessageType());
+
+        //在订阅事件中获取sessionId
+        Object sessionId = wrap.getSessionAttributes().get("sessionId");
+        System.out.println("[SubscribeEventListener 监听器类] 获取sessionId为:"+sessionId);
     }
 }

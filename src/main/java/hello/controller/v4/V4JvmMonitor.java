@@ -12,7 +12,7 @@ public class V4JvmMonitor {
     @Autowired
     private WebsocketService ws;
 
-    @Scheduled(fixedRate=3000)
+  /*  @Scheduled(fixedRate=3000)*/
     public void sendJvmInfo(){
         ws.sendJvmInfo();
     }
