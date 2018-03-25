@@ -21,9 +21,6 @@ public class V6UserController {
         userMap.put("wangwu","123456");
         onlineUserMap.put("123",new User("admin","123456"));
     }
-
-
-
     @RequestMapping(value = "login", method= RequestMethod.POST)
     public String login(@RequestParam(value = "username",required=true) String username, @RequestParam(value = "pwd",required = true) String pwd, HttpSession session){
         String password = userMap.get(username);
