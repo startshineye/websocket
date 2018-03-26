@@ -1,5 +1,6 @@
 package hello.service;
 
+import hello.controller.v6.V6UserController;
 import hello.model.Greeting;
 import hello.model.HelloMessage;
 import hello.model.chat.InMessage;
@@ -7,6 +8,7 @@ import hello.model.chat.OutMessage;
 import hello.model.chat.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.messaging.simp.SimpMessagingTemplate;
+import org.springframework.messaging.simp.stomp.StompHeaderAccessor;
 import org.springframework.stereotype.Service;
 
 import java.util.Map;
@@ -47,5 +49,14 @@ public class WebsocketService{
             msg = msg.concat(entry.getValue().getName()+"||");
         }
         template.convertAndSend("/topic/online/user",new OutMessage(msg));
+    }
+
+    /**
+     * 发送消息
+     * @param message
+     */
+    public void sendChatMessage(InMessage message) {
+        String content = message.getFrom() + " 发送: " + message.getContent();
+        template.convertAndSend("/topic/chat",new OutMessage(content));
     }
 }
