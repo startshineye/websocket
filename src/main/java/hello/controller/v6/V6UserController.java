@@ -1,6 +1,9 @@
 package hello.controller.v6;
 
 import hello.model.chat.User;
+import hello.service.WebsocketService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -9,9 +12,13 @@ import org.springframework.web.bind.annotation.RequestParam;
 import javax.servlet.http.HttpSession;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.WeakHashMap;
 
 @Controller
 public class V6UserController {
+    @Autowired
+    private WebsocketService ws;
+
     private static Map<String,String> userMap = new HashMap<String,String>();
     public static Map<String,User> onlineUserMap = new HashMap<String,User>();
     static {
@@ -32,5 +39,13 @@ public class V6UserController {
         }else{
             return "redirect:/v6/error.html";
         }
+    }
+
+    /**
+     * 定时向用户端推送坐席个数
+     */
+    @Scheduled(fixedRate = 2000)
+    public void onlinUser(){
+          ws.sendOnlineUser(onlineUserMap);
     }
 }

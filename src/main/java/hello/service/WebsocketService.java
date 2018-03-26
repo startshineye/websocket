@@ -4,9 +4,12 @@ import hello.model.Greeting;
 import hello.model.HelloMessage;
 import hello.model.chat.InMessage;
 import hello.model.chat.OutMessage;
+import hello.model.chat.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.messaging.simp.SimpMessagingTemplate;
 import org.springframework.stereotype.Service;
+
+import java.util.Map;
 
 @Service
 public class WebsocketService{
@@ -36,5 +39,13 @@ public class WebsocketService{
         String content = String.format("可用进程数:%s 空闲内存:%s 最大内存数:%s",availa,free,max);
         System.out.println("信息: "+content);
         template.convertAndSend("/monitor/jvm/info",new OutMessage(content));
+    }
+
+    public void sendOnlineUser(Map<String, User> onlineUserMap) {
+        String msg = "";
+        for (Map.Entry<String,User> entry:onlineUserMap.entrySet()) {
+            msg = msg.concat(entry.getValue().getName()+"||");
+        }
+        template.convertAndSend("/topic/online/user",new OutMessage(msg));
     }
 }

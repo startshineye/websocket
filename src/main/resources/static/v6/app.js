@@ -23,10 +23,9 @@ function connect() {
         stompClient.subscribe('/topic/chat', function (result) {
         	showContent(JSON.parse(result.body));
         });
-        
-        //订阅在线用户消息
-        stompClient.subscribe('/topic/onlineuser', function (result) {
-        	showOnlieUser(JSON.parse(result.body));
+
+        stompClient.subscribe('/topic/online/user',function(result){
+           showOnlineUser(JSON.parse(result.body));
         });
     });
 }
@@ -53,7 +52,7 @@ function showContent(body) {
 }
 
 //显示实时在线用户
-function showOnlieUser(body) {
+function showOnlineUser(body) {
     $("#online").html("<tr><td>" + body.content + "</td> <td>"+new Date(body.time).toLocaleTimeString()+"</td></tr>");
 }
 
